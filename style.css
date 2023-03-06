@@ -157,21 +157,25 @@
         top: 0px;
         left: 250px;
         border-radius: 25%;
+        transform: rotate(45deg);
     }
     50%{
         top: 250px;
         left: 250px;
         border-radius: 50%;
+        transform: rotate(90deg);
     }
     75%{
         top: 250px;
         left: 0px;
         border-radius: 25%;
+        transform: rotate(180deg);
     }
     100%{
         top: 0px;
         left: 0px;
         border-radius: 0%;
+        transform: rotate(275deg);
     }
 }
 
